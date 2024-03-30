@@ -24,7 +24,7 @@ function Navbar() {
         <LeftContainer>
         {!extendNavbar && <Logo>
           <Link to='/' style={{textDecoration:"none",color:"black"}}>
-          NoteSharing
+          CollabConnect
           </Link>
           </Logo>}
       </LeftContainer>

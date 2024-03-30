@@ -91,7 +91,7 @@ const Login = () => {
   };
   return (
     <Container>
-      <TitleNav>NoteSharing</TitleNav>
+      <TitleNav>CollabConnect</TitleNav>
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>

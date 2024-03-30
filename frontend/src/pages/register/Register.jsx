@@ -108,7 +108,7 @@ const Register = () => {
    
   return (
     <Container>
-       <TitleNav>NoteSharing</TitleNav>
+       <TitleNav>CollabConnect</TitleNav>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
         <Form>
