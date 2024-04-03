@@ -29,7 +29,7 @@
     width: 60px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid cornflowerblue;
+    border: 2px solid rgb(198, 150, 230);
 }
 .author-name{
     font-size: 16px;
@@ -50,7 +50,7 @@
 }
 .author-notes-followers-count{
     font-size: 18px;
-    color: cornflowerblue;
+    color: rgb(198, 150, 230);
 }
 .author-notes-followers-text{
     font-size: 13px;
@@ -92,7 +92,7 @@
     width: 45px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid cornflowerblue;
+    border: 2px solid rgb(198, 150, 230);
 }
 .author-name{
     font-size: 14px;

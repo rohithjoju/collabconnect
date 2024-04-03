@@ -25,9 +25,9 @@ const Home = () => {
            <div className='center-container'>
            <RenderPost /> 
            </div> 
-           <div className='right-container'>
+           {/* <div className='right-container'>
             <BuildConversation />
-           </div>
+           </div> */}
           </div>
           
         </div>

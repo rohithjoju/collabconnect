@@ -34,7 +34,7 @@
     
 }
 .carousel .slide img {
-    border: 2px solid rgb(67, 94, 143);      
+    border: 2px solid rgb(159, 111, 177);      
 }
  
 .banner-text{
@@ -48,32 +48,32 @@
     font-weight: 600;
     font-size: 28px;
     cursor: pointer;
-    color: rgb(22, 9, 78);
+    color: rgb(48, 4, 49);
 }
 .banner-name:hover{
-    color: rgb(106, 138, 228);
+    color: rgb(94, 53, 105);
 }
 .banner-sell{
     font-weight: 300;
     font-size: 23px;
-    color: rgb(23, 14, 100);
+    color: rgb(48, 4, 49);
 }
 .carousel-container {
     background-image: linear-gradient(to right, rgb(218 221 230), rgb(214 97 97));
    margin-left: 3vw;
    margin-right: 2vw;
-   box-shadow: 0px 1px 3px rgb(32, 27, 41);
+   box-shadow: 0px 1px 3px rgb(36, 27, 53);
 }
 
 .carousel.carousel-slider .control-arrow {
-    background-color: rgb(10, 32, 49);
+    background-color: rgb(48, 4, 49);
     height: 9vh;
     margin-top: 9vh;
 }
 
  
 .banner-notesname:hover{
-    color: rgb(36, 44, 8);
+    color: rgb(204, 205, 156);
 }
  
 @media only screen and (max-width: 750px) {

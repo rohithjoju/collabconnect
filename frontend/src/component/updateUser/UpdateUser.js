@@ -34,7 +34,9 @@ const UpdateUser = () => {
       data.append("file", photo);
       data.append("upload_preset", "handnoteimages");
       const res = await axios.post(
-        "https://api.cloudinary.com/v1_1/dw2fok6if/image/upload",
+        // "https://api.cloudinary.com/v1_1/dw2fok6if/image/upload",
+        "https://api.cloudinary.com/v1_1/dw1i9q09x",
+
         data
       );
       newUser.profilePicture = await res.data.secure_url;

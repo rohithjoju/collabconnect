@@ -8,7 +8,7 @@
     height: 8vh;
 }
 .uploadNote-img{
-    border: 1px solid #2a78cb;
+    border: 1px solid #e6aee0;
 }
 .uploadNote-img img{
     width: 8vh;
@@ -17,7 +17,7 @@
 }
 .uploadNote-post{
     width: 100%;
-    border: 3px dotted #216bb9;
+    border: 3px dotted #e59fde;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -34,15 +34,15 @@
     display: flex;
     flex-direction: column;
     padding: 8px;
-    border: 2px dotted #2a78cb;
+    border: 2px dotted #cb62a8;
 }
 .upload-note-top{
    display: flex;
    justify-content: space-between;
-   border-bottom: 1px solid brown;
+   border-bottom: 1px solid rgb(134, 57, 57);
    align-items: center;
    height: 12vh;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 0.0625em 0.0025em, rgba(0, 0, 0, 0.1) 0px 0.025em 0.1em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+   box-shadow: rgba(223, 116, 116, 0.1) 0px 0.0625em 0.0025em, rgba(0, 0, 0, 0.1) 0px 0.025em 0.1em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .upload-note-top-left{
     display: flex;
@@ -78,7 +78,7 @@
     outline: none;
     border: none;
     color: white;
-    background-color: #167eec;
+    background-color: #b85db7;
     cursor: pointer;
 }
 .custom-file-upload{
@@ -111,7 +111,7 @@
         width: 7vh;
     }
     .uploadNote-post{
-        border: 2px dotted #216bb9;
+        border: 2px dotted #9a68a2;
         padding:4px;
     }
     .uploadNote-post-text{
