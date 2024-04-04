@@ -142,14 +142,14 @@ const Navbar = () => {
      </TopNavWrapper>
     <Container>
       <Wrapper>
-        <Left>
-          <Language>EN</Language>
-          <SearchContainer onSubmit={searchHandler}>
-            <Input placeholder="Search" onChange={(e)=>setsearchedValue(e.target.value)}/>
-            <SearchButton type="submit">
-            <Search style={{ color: "gray", fontSize: 16 }} />
-            </SearchButton >
-          </SearchContainer>
+         <Left> 
+          {/* <Language>EN</Language> */}
+          {/* <SearchContainer onSubmit={searchHandler}> */}
+            {/* <Input placeholder="Search" onChange={(e)=>setsearchedValue(e.target.value)}/> */}
+            {/* <SearchButton type="submit"> */}
+            {/* <Search style={{ color: "gray", fontSize: 16 }} /> */}
+            {/* </SearchButton > */}
+          {/* </SearchContainer> */}
         </Left>
         <Center>
         <Link to="/" style={{textDecoration:"none",color:"black"}}>
@@ -191,14 +191,14 @@ const Navbar = () => {
              </>
           }
          
-          <Link to="/searchuser" style={{textDecoration:"none"}}>
-               <MenuItem>
-               <Chat style={{color:"#1b6dc4"}} />
-               <Item>
-               Chat
-               </Item>
-               </MenuItem>
-          </Link>
+          {/* <Link to="/searchuser" style={{textDecoration:"none"}}> */}
+               {/* <MenuItem> */}
+               {/* <Chat style={{color:"#1b6dc4"}} /> */}
+               {/* <Item> */}
+               {/* Chat */}
+               {/* </Item> */}
+               {/* </MenuItem> */}
+          {/* </Link> */}
          
         </Right>
       </Wrapper>
