@@ -47,12 +47,7 @@ const Homeprofile = () => {
       <p className="leftmost-links">View Profile</p> 
       </div>     
      </Link>
-     {/* <Link to={`/messenger`} style={{textDecoration:"none",color:"#38393b"}} className="profile-link-icons" > */}
-        {/* <div className="menuItem"> */}
-           {/* <Chat style={{color:"rgb(43, 68, 97)"}}/> */}
-           {/* <p className="leftmost-links">Chat</p> */}
-        {/* </div> */}
-      {/* </Link> */}
+
        <Link to={`/profile/update`} style={{textDecoration:"none"}} className="profile-link-icons" >
         <div className="menuItem">
            <Settings />

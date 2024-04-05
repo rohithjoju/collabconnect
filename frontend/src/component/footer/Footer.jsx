@@ -39,9 +39,7 @@ const Footer = () => {
               <Link to={"/profile/"+currentUser._id} className="footer-link-item" style={{textDecoration:"none"}}>
                 Profile
               </Link>
-              {/* <Link to="/searchuser" className="footer-link-item" style={{textDecoration:"none"}}> */}
-                 {/* Chat */}
-              {/* </Link> */}
+              
             </div>
         </div>
       </div>

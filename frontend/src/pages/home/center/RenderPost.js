@@ -107,15 +107,7 @@ const RenderPost = () => {
     <>
     
       <Wrapper>
-         {/* <SearchContainer onSubmit={searchHandler}>  */}
-          {/* <Input */}
-            {/* placeholder="Search notes..." */}
-            {/* onChange={(e) => setsearchedItem(e.target.value)} */}
-          {/* /> */}
-          {/* <SearchButton type="submit"> */}
-            {/* <Search style={{ color: "gray", fontSize: 30 }} /> */}
-          {/* </SearchButton> */}
-        {/* </SearchContainer> */}
+
        </Wrapper> 
       {
         notes?.length===0 ? <h3 style={{textAlign:"center"}}>Not Found</h3>:
